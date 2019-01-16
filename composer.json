@@ -1,0 +1,20 @@
+{
+    "name": "mantas/simple_package",
+    "description": "simple package pvz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mantas",
+            "email": "belekas@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mantas\\simple_package\\": "src"
+        }
+    }
+}
